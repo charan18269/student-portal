@@ -21,6 +21,10 @@ void displayStudentDetails(const string& name, int age) {
     cout << "Age: " << age << endl;
 }
 
+bool isEligibleForPortal(int age) {
+    return age >= 18;
+}
+
 int main() {
     printWelcomeMessage();
     greetUser();
@@ -33,6 +37,12 @@ int main() {
     std::cout << "Program finished successfully." << std::endl;
 
     displayStudentDetails("Charan", 20);
+    
+if (isEligibleForPortal(20)) {
+    cout << "Student is eligible for the portal." << endl;
+} else {
+    cout << "Student is not eligible for the portal." << endl;
+}
 
     return 0;
 }
