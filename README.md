@@ -1,0 +1,5 @@
+# Student Portal
+
+Student Portal is a small C++ project created as part of a Git lab activity.
+
+The project demonstrates basic software development practices while using Git for version control and maintaining a meaningful development history.
