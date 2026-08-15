@@ -27,3 +27,12 @@ After compiling the project, run the executable with:
 
 ```bash
 ./student-portal
+
+
+## Project Structure
+
+```text
+student-portal/
+├── main.cpp
+├── README.md
+└── .gitignore
