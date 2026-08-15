@@ -19,3 +19,11 @@ Compile the project using a C++ compiler:
 
 ```bash
 g++ main.cpp -o student-portal
+
+
+## Execution
+
+After compiling the project, run the executable with:
+
+```bash
+./student-portal
