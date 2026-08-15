@@ -12,3 +12,10 @@ Before running the project, make sure the following software is installed:
 - Git
 - A C++ compiler such as `g++`
 - A terminal or command-line environment
+
+## Compilation
+
+Compile the project using a C++ compiler:
+
+```bash
+g++ main.cpp -o student-portal
