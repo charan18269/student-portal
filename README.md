@@ -36,3 +36,10 @@ student-portal/
 ├── main.cpp
 ├── README.md
 └── .gitignore
+
+
+## Usage
+
+The program accepts a student's name and displays a personalized welcome message along with a basic numerical calculation.
+
+Run the compiled program from the terminal and follow the prompts shown by the application.
