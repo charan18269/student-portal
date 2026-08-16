@@ -24,6 +24,7 @@ void displayStudentDetails(const string& name, int age) {
     cout << "Role: Student" << endl;
     cout << "Email: charan@studentportal.com" << endl;
     cout << "\nStudent Dashboard" << endl;
+cout << "Portal Access: Granted" << endl;
 }
 
 bool isEligibleForPortal(int age) {
