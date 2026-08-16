@@ -1,2 +1,21 @@
+# Build/output files
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
+bin/
+
+# macOS
 .DS_Store
-student-portal
+
+# IDE settings
+.vscode/
+.idea/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
