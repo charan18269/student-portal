@@ -15,6 +15,13 @@ int addNumbers(int a, int b) {
     return a + b;
 }
 
+void displayDashboard() {
+    cout << "\nStudent Dashboard" << endl;
+    cout << "Portal Access: Student Verified" << endl;
+    cout << "Dashboard Status: Ready" << endl;
+    cout << "Notifications: None" << endl;
+}
+
 void displayStudentDetails(const string& name, int age) {
     cout << "\nStudent Details" << endl;
     cout << "Name: " << name << endl;
@@ -23,10 +30,7 @@ void displayStudentDetails(const string& name, int age) {
     cout << "Status: Active" << endl;
     cout << "Role: Student" << endl;
     cout << "Email: charan@studentportal.com" << endl;
-    cout << "\nStudent Dashboard" << endl;
-cout << "Portal Access: Student Verified" << endl;
-cout << "Dashboard Status: Ready" << endl;
-cout << "Notifications: None" << endl;
+    displayDashboard();
 cout << "\nSettings" << endl;
 cout << "Theme: Default" << endl;
 cout << "Language: English" << endl;
