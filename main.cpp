@@ -27,6 +27,7 @@ void displayStudentDetails(const string& name, int age) {
 cout << "Portal Access: Granted" << endl;
 cout << "Dashboard Status: Ready" << endl;
 cout << "Notifications: None" << endl;
+cout << "\nSettings" << endl;
 }
 
 bool isEligibleForPortal(int age) {
