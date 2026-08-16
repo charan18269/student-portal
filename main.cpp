@@ -39,7 +39,13 @@ cout << "Profile settings loaded" << endl;
 }
 
 bool isEligibleForPortal(int age) {
-    return age >= 18;
+    if (age >= 18) {
+        cout << "Portal eligibility confirmed." << endl;
+        return true;
+    } else {
+        cout << "Portal eligibility denied." << endl;
+        return false;
+    }
 }
 
 bool isValidStudentAge(int age) {
