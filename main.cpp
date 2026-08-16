@@ -80,11 +80,15 @@ if (isEligibleForPortal(20)) {
     cout << "Student is not eligible for the portal." << endl;
 }
 
+
+
 if (isValidStudentAge(20)) {
     cout << "Student age is valid." << endl;
 } else {
     cout << "Student age is invalid." << endl;
 }
+
+cout << "Attendance status: Active" << endl;
 
     return 0;
 }
