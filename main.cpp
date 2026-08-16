@@ -48,6 +48,9 @@ int main() {
     greetUser();
 
 bool loggedIn = loginUser("Charan", "student123");
+if (loggedIn) {
+    cout << "User session is active." << endl;
+}
 
     int num1 = 5;
     int num2 = 10;
