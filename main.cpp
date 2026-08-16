@@ -25,6 +25,10 @@ bool isEligibleForPortal(int age) {
     return age >= 18;
 }
 
+bool isValidStudentAge(int age) {
+    return age >= 18 && age <= 60;
+}
+
 int main() {
     printWelcomeMessage();
     greetUser();
@@ -42,6 +46,12 @@ if (isEligibleForPortal(20)) {
     cout << "Student is eligible for the portal." << endl;
 } else {
     cout << "Student is not eligible for the portal." << endl;
+}
+
+if (isValidStudentAge(20)) {
+    cout << "Student age is valid." << endl;
+} else {
+    cout << "Student age is invalid." << endl;
 }
 
     return 0;
