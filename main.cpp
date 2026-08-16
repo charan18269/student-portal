@@ -33,11 +33,13 @@ bool validateLogin(const string& username, const string& password) {
     return username == "Charan" && password == "student123";
 }
 
-void loginUser(const string& username, const string& password) {
+bool loginUser(const string& username, const string& password) {
     if (validateLogin(username, password)) {
         cout << "Login successful." << endl;
+        return true;
     } else {
         cout << "Invalid username or password." << endl;
+        return false;
     }
 }
 
@@ -45,7 +47,7 @@ int main() {
     printWelcomeMessage();
     greetUser();
 
-loginUser("Charan", "student123");
+bool loggedIn = loginUser("Charan", "student123");
 
     int num1 = 5;
     int num2 = 10;
