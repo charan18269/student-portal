@@ -31,7 +31,7 @@ cout << "\nSettings" << endl;
 cout << "Theme: Default" << endl;
 cout << "Language: English" << endl;
 cout << "Notifications: Enabled" << endl;
-
+cout << "Profile settings loaded" << endl;
 }
 
 bool isEligibleForPortal(int age) {
