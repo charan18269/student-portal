@@ -28,6 +28,8 @@ cout << "Portal Access: Granted" << endl;
 cout << "Dashboard Status: Ready" << endl;
 cout << "Notifications: None" << endl;
 cout << "\nSettings" << endl;
+cout << "Theme: Default" << endl;
+
 }
 
 bool isEligibleForPortal(int age) {
