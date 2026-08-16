@@ -29,6 +29,7 @@ cout << "Dashboard Status: Ready" << endl;
 cout << "Notifications: None" << endl;
 cout << "\nSettings" << endl;
 cout << "Theme: Default" << endl;
+cout << "Language: English" << endl;
 
 }
 
