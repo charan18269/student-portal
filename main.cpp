@@ -29,8 +29,12 @@ bool isValidStudentAge(int age) {
     return age >= 18 && age <= 60;
 }
 
+bool validateLogin(const string& username, const string& password) {
+    return username == "Charan" && password == "student123";
+}
+
 void loginUser(const string& username, const string& password) {
-    if (username == "Charan" && password == "student123") {
+    if (validateLogin(username, password)) {
         cout << "Login successful." << endl;
     } else {
         cout << "Invalid username or password." << endl;
