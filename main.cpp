@@ -30,6 +30,7 @@ cout << "Notifications: None" << endl;
 cout << "\nSettings" << endl;
 cout << "Theme: Default" << endl;
 cout << "Language: English" << endl;
+cout << "Notifications: Enabled" << endl;
 
 }
 
