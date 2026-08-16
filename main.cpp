@@ -20,6 +20,7 @@ void displayStudentDetails(const string& name, int age) {
     cout << "Name: " << name << endl;
     cout << "Age: " << age << endl;
     cout << "Profile: Student account" << endl;
+    cout << "Status: Active" << endl;
 }
 
 bool isEligibleForPortal(int age) {
